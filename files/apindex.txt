@@ -1,5 +1,0 @@
-apindex .
-
-note: tidak bisa .file
-
-
