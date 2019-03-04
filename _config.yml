@@ -6,8 +6,30 @@ description: >
    Kisah seorang warga bingung menjelang April 2019.
 author: Cicak Bin Kadal
 theme: jekyll-theme-midnight
-# theme: jekyll-theme-time-machine
-show_downloads: true
-share: true
+show_downloads: false
+share: false
 github: [metadata]
+encoding: UTF-8
+timezone: Asia/Jakarta
+
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
 
