@@ -4,5 +4,5 @@ title: About
 ---
 # {{ page.title }}
 
-<p class="current">This is my 4th try to use GitHub Pages/Jekyll.</p>
+<p class="current">About What?</p>
 
